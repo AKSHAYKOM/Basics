@@ -4,9 +4,10 @@ using namespace std;
 int main(){
     int a[5], min;
 
-    for(int i=0; i<=4; i++){
-        cout<<"Enter a : "<<i<<endl;  // endl added
-        cin>>a[i];
+    for(int i=0; i<=4; i++)
+    {
+        cout << "Enter a : "<<i <<endl ;  
+        cin >> a[i];
     }
 
     min=a[0];

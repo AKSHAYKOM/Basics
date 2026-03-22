@@ -11,7 +11,8 @@ int main(){
     cout<<"Enter digit to find: ";
     cin>>digit;
 
-    while(num>0){
+    while(num>0)
+    {
         r = num%10;
         if( r== digit){
             found = true;
@@ -19,7 +20,8 @@ int main(){
         num=num/10;
     }
 
-    if(found==true){
+    if(found==true)
+    {
         cout<<"Digit Found"<<endl;
     } else {
         cout<<"Digit Not Found"<<endl;

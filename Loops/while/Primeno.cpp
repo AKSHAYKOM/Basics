@@ -7,16 +7,19 @@ int main(){
     cout<<"Enter number: ";
     cin>>num;
 
-    while( i<=num/2){
+    while( i <= num/2){
         if(num % i == 0){
             count++;
         }
         i++;
     }
 
-    if(count==0){
+    if(count==0)
+    {
         cout<<num<<" is Prime"<<endl;
-    } else {
+    }
+    else 
+    {
         cout<<num<<" is Not Prime"<<endl;
     }
 

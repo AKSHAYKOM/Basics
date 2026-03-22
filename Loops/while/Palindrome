@@ -9,13 +9,15 @@ int main(){
 
     n=num;
 
-    while(num>0){
-        r=num%10;
-        a=a*10+r;
+    while(num>0)
+    {
+        r =num%10;
+        a =a*10+r;
         num=num/10;
     }
 
-    if(n==a){
+    if(n==a)
+    {
         cout<<"Palindrome"<<endl;
     } else {
         cout<<"Not Palindrome"<<endl;

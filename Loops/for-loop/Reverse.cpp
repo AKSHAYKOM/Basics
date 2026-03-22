@@ -7,9 +7,10 @@ int main(){
     cout<<"Enter number: ";
     cin>>num;
 
-    for(; num>0; ){
-        r = num%10;
-        a = a*10+r;
+    for(; num>0; )
+    {
+        r = num % 10;
+        a = a * 10 + r;
         num = num/10;
 
     }
